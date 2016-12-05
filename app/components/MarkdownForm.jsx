@@ -9,8 +9,8 @@ var MarkdownForm = React.createClass({
 
     //this.props.handleNewData(this.props.text);
     return(
-      <div className = "small-12 medium-6 columns">
-        <textarea value = {this.props.text} id = "input" rows = "2" columns = "25" onChange = {this.handleTyping}></textarea>
+      <div className = "col-sm-12 col-md-6">
+        <textarea value = {this.props.text} id = "input" rows = "20" columns = "2" onChange = {this.handleTyping}></textarea>
       </div>
     );
 
