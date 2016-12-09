@@ -4,10 +4,29 @@ body{
   ///fffaaa
 }
 
+.app-title{
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  background: $burgandy;
+  color: white;
+}
+
+.title{
+  margin: 0;
+  padding-top: 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  background: $burgandy;
+  color: white;
+
+}
+
 .markdown-container{
   margin-top: 5%;
 }
 
-h1,h2,p{
-  display: block;
+.align{
+  display: inline;
+  vertical-align: middle;
 }
